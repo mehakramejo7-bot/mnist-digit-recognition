@@ -1,0 +1,38 @@
+# MNIST Digit Recognition
+
+This project implements a machine learning model to recognize handwritten
+digits (0–9) using the MNIST dataset.
+
+## Task Description
+The goal is to preprocess MNIST handwritten digit images, train a model
+to classify digits from 0 to 9, and evaluate its performance.
+
+## Dataset
+MNIST handwritten digit dataset (IDX format).
+
+## Methodology
+- Loaded MNIST IDX image and label files
+- Normalized image pixel values
+- Built a Convolutional Neural Network (CNN)
+- Trained the model with early stopping
+- Evaluated performance using accuracy and confusion matrix
+
+## Results
+- Test Accuracy: **99.21%**
+- Test Loss: **0.0226**
+- Total Misclassified Images: **79 out of 10,000**
+
+## Technologies Used
+- Python
+- TensorFlow / Keras
+- NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+
+## How to Run
+1. Open the notebook in Google Colab or Jupyter
+2. Ensure MNIST files are placed in the correct directory
+3. Run all cells
+
+## Author
+<Mehak Fareed Ramejo >
